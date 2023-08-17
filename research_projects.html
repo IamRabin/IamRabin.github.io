@@ -4,7 +4,7 @@
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>About Me - R.Khadka</title>
+        <title>Home - R.Khadka</title>
 
         <link rel="stylesheet" href="./fonts/Serif/cmun-serif.css" />
         <link rel="stylesheet" href="./fonts/Serif-Slanted/cmun-serif-slanted.css" />
@@ -27,9 +27,7 @@
         <link href="./css/sticky-footer-navbar.css" rel="stylesheet">
 
         <link href="./css/default.css" rel="stylesheet">
-
-        <link href="./css/bootstrap-carousel.css" rel="stylesheet">
-
+        <link href="./css/index.css" rel="stylesheet">
 
         <link href="./css/inlineDisqussions.css" rel="stylesheet">
 
@@ -37,7 +35,6 @@
         <link href="./highlight/styles/github.css" rel="stylesheet">
 
         <link href="./favicon.ico" rel="shortcut icon" />
-
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176574941-1"></script>
@@ -50,32 +47,11 @@
         </script>
 
 
-<style>
-
-.profile {
-    background-color:rgba(245,245,245,.9);
-    width:45%;
-    margin-top:5%;
-    margin-left:50%;
-    padding:20px;
-    border-radius: 20px;
-}
-
-.profile h2 {
-    margin-top: 10px;
-    font-size: 125%;
-}
-
-.profile p {
-    font-size: 100%;
-}
-
-
-</style>
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     </head>
 
-      <body style="background: #ffffff url('images/covers/prof.png') no-repeat left fixed;-moz-background-size:40%;-webkit-background-size:40%;-o-background-size:40%;background-size:40%; min-width: 30%;">
+    <body>
         <div id="wrap">
             <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
                 <div class="container">
@@ -93,6 +69,7 @@
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="./"><span class="glyphicon glyphicon-pencil"></span>  Blog</a></li>
+                            <li><a href="./research_projects.html"><span class="glyphicon glyphicon-envelope"></span> Projects</a></li>
                             <li><a href="./about.html"><span class="glyphicon glyphicon-user"></span>  About</a></li>
                             <li><a href="./contact.html"><span class="glyphicon glyphicon-envelope"></span>  Contact</a></li>
                         </ul>
@@ -101,35 +78,106 @@
             </nav>
 
 
+            <div class="container">
+                <div class="col-sm-10 col-sm-offset-1" id="indexwrapper">
 
 
-            <div class="profile">
-                <h2 >Rabindra Khadka</h2>
+<style>
+</style>
 
-                <p> I would like to introduce myself as a continuous learner; currently in the field of artificial intelligence, data
-                     science who is looking forward in this never ending learning curve. I've cultivated a drive to enable machines, through AI, 
-                     to emulate human capabilities, aiming to uncover solutions across diverse domains such as medicine, the environment, energy, social analysis, and beyond. My curent research area is focused in developing AI models to detect dementia at an early stage  .
-		             I have been also collaborating remotely in projects and I am open to team up to work on new ideas. 
-                    Some of my research interest includes low dimensional models for high dimensional data, scalable optimization and machine learning, and causal deep learning.
-                    I love mountain climbing, hiking and being lost in nature. And not to forget; I am still waiting to be called by my favourite soccer club... ! :) </p>
 
-                <p style="text-align:center;"><a href="cv.html">Academic CV</a> - <a href="https://github.com/IamRabin/">Github</a> - <a href="https://twitter.com/Rk_Go_green">Twitter</a> </p>
+<h2> Projects</h2>
 
 
 
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td width="100%" valign="middle">
+            <smallheading style="color:#145A32">Unveiling Microstates: Decoding EEG Patterns in Dementia </smallheading>
 
-            </div>
+          </td>
+        </tr>
+    </table>
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+  <tr onmouseout="unprocessing_stop()" onmouseover="unprocessing_start()">
+          <td style="padding:20px;width:25%>
+            <div class="one">
+              <!-- <div class="two" id='unprocessing_image'><img src='images/post-covers/Fishtail.png'></div> -->
+              <div class="two" id='motionblur_image'>  <img src='images/covers/microstates_eeg.png'> </div>
+            <script type="text/javascript">
+              function unprocessing_start() {
+                document.getElementById('unprocessing_image').style.opacity = "1";
+              }
+
+              function unprocessing_stop() {
+                document.getElementById('unprocessing_image').style.opacity = "0";
+              }
+              unprocessing_stop()
+            </script>
+          </td>
+          <td valign="middle" width="70%">
+             <a href="project_description/micro_states_eeg.pdf">
+                 <papertitle>Investigating EEG Microstate Analysis for Cognitive State Characterization</papertitle>
+            </a>
+            <br>
+            <br>
+             <em><a href="project_description/micro_states_eeg.pdf"> Details </a> </em> &nbsp
+            <br>
+            <p>This project proposal outlines a short research endeavor focused on exploring and analyzing EEG
+               signals through the lens of microstate analysis. EEG microstates represent fundamental neural activity 
+               patterns that recur over time and are closely tied to cognitive processes.
+                .</p>
+          </td>
+        </tr>
+
+  </table>
 
 
 
 
-            <div class="col-md-4" id="toc-wrapper">
-            </div>
 
 
 
 
-        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+<br>
+<br>
 
     <!-- jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -141,12 +189,8 @@
     <script>hljs.initHighlightingOnLoad();</script>
 
     <script src="./js/footnotes.js"></script>
-    <script src="./js/bootstrap-carousel.js"></script>
+
     <script src="./js/inlineDisqussions.js"></script>
-    <script src="./js/toc.js"></script>
-
-
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     <noscript>Enable JavaScript for footnotes, Disqus comments, and other cool stuff.</noscript>
 
